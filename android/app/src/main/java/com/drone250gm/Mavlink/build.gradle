@@ -1,0 +1,13 @@
+apply plugin: 'java'
+
+sourceSets {
+    main {
+        java.srcDirs = ['src']
+    }
+}
+dependencies {
+    implementation 'com.mavlink:mavlink:1.0.0'
+}
+repositories {
+    mavenCentral()
+}
