@@ -49,13 +49,14 @@
 
 - It contains the css of the components used in the app.
 
-## android>app>src>main>java>com>drone250gm>Mavlink
+## Android - This folder contains our android libraries
+
+### android>app>src>main>java>com>drone250gm>Mavlink
 
 - Contains mavlink library with all the mavlink message definitions.
 
-## android>app>src>main>java>com>drone250gm
+### android>app>src>main>java>com>drone250gm - It contains the react native modules
 
-### It contains the react native modules
 
 - ConnectionModule.java: contains receiveUDP function Thread which sends mavlink request messages and receives telemetry data from the system.
   
