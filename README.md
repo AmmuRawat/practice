@@ -1,23 +1,23 @@
-### IDEX PROJECT
+# IDEX PROJECT
 
-# ANDROID APP TO CONTROLL THE DRONES
+## ANDROID APP TO CONTROLL THE DRONES
 
-## PROJECT REQUIREMENTS
+# PROJECT REQUIREMENTS
 
 - Os - Linux preferred Ubuntu 22.04 LTS
 - Node - v18.12.1
 
-### Project Setup
+# Project Setup
 
 1. cd idex-project-android-app
 2. npm install
 3. npm start
 
-### Directory Structure
+# Directory Structure
 
 ## src - This folder contains source folders for frontend code
 
-# Components
+### Components
 
 - Camera.tsx: Shows real time camera feedback from the drone
 - DraggableCamera.tsx: Makes camera component draggable
@@ -26,11 +26,11 @@
 - MissionMaps.tsx: Contains map for mission  mode
 -
 
-# Navigations
+### Navigations
 
 - AppNavigation.tsx: Its a nav bar of the android app .
 
-# Pages
+### Pages
 
 - Below pages are the Container for the guided and mission operations.
 
@@ -38,24 +38,24 @@
 
 - MissionControl.tsx: Control the drones in auto mission mode and drones follow the given waypoints.
 
-# Settings
+### Settings
 
 - Acceleration.tsx: Contains the accelerometer calibration part.
 - Calibration.tsx: Contains the mag calibration part.
 - instructions.tsx: Contains the instruction to use the app.
 - video.tsx: Used for testing purpose and further remove in future.
   
-# Styles
+### Styles
 
 - It contains the css of the components used in the app.
 
-### android>app>src>main>java>com>drone250gm>Mavlink
+## android>app>src>main>java>com>drone250gm>Mavlink
 
 - Contains mavlink library with all the mavlink message definitions.
 
-### android>app>src>main>java>com>drone250gm
+## android>app>src>main>java>com>drone250gm
 
-## It contains the react native modules
+### It contains the react native modules
 
 - ConnectionModule.java: contains receiveUDP function Thread which sends mavlink request messages and receives telemetry data from the system.
   
@@ -65,7 +65,7 @@
 
 - socketModule.java: contains the datagram socket port and handles all the packet of messages received from the system.
 
-### Components Structure
+## Components Structure
 
  ![componentCallStructure.jpeg](./componentCallStructure.jpeg)
   
